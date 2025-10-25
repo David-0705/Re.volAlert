@@ -1,0 +1,10 @@
+streamlit
+transformers>=4.30.0
+datasets
+torch
+tensorflow>=2.10
+gnews==0.2.5
+pandas
+scikit-learn
+sentencepiece
+protobuf
