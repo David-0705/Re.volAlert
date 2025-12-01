@@ -20,7 +20,7 @@ company_query = st.sidebar.text_input("Or enter company name / query", value=sto
 num_articles = st.sidebar.slider("Number of articles", 3, 15, 8)
 analyze_btn = st.sidebar.button("Analyze News")
 
-st.info("⚠️ Make sure your model and tokenizer are saved in 'saved_model/'. Click 'Analyze News' to fetch and analyze recent news.")
+# st.info("⚠️ Make sure your model and tokenizer are saved in 'saved_model/'. Click 'Analyze News' to fetch and analyze recent news.")
 
 if analyze_btn:
     with st.spinner("Fetching latest news..."):
